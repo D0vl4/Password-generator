@@ -1,0 +1,131 @@
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+    font-family: Poppins;
+    background-color: #c1edd3;
+}
+
+#container {
+    position: absolute;
+    transform: translate(10%, 50%);
+    width: 34rem;
+    height: 34rem;
+    background-color: #1F2937;
+    border-radius: 1rem;
+}
+
+p {
+    position: absolute;
+    left: 3.25rem;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+    letter-spacing: -0.025em;
+    color: white;
+}
+
+.random__password {
+    color: #4ADF86;  
+}
+
+.never {
+    position: absolute;
+    top: 7rem;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: #D5D4D8;
+}
+
+#button {
+    position: absolute;
+    width: 12rem;
+    height: 3rem;
+    left: 3.25rem;
+    top: 12rem;
+    background: #22be61;
+    border-radius: .5rem;
+    cursor: pointer;
+    border: none;
+    font-family: Poppins;
+    color: white;
+    font-size: 1rem;
+}
+
+#button:hover {
+    box-shadow: .25rem .25rem white;
+}
+
+#button:active {
+    transform: translate(2px, 2px);
+    box-shadow: 0 0 white;
+}
+
+#clear {
+    position: absolute;
+    width: 8rem;
+    height: 3rem;
+    left: 3.23rem;
+    top: 17rem;
+    background: red;
+    border-radius: .5rem;
+    cursor: pointer;
+    border: none;
+    font-family: Poppins;
+    color: white;
+    font-size: 1rem;
+}
+
+#clear:active {
+    transform: translate(2px, 2px);
+}
+
+hr {
+    position: absolute;
+    width: 27.5rem;
+    left: 3.25rem;
+    top: 25rem;
+    border: .5px solid rgba(137, 137, 137, 0.195);
+    border-radius: 1rem;
+}
+
+.info {
+    position: absolute;
+    top: 22.5rem;
+    font-weight: 300;
+    font-size: 1rem;
+    color: #D5D4D8;
+}
+
+#generated__password {
+    position: absolute;
+    width: 27.5rem;
+    height: 3rem;
+    left: 3.25rem;
+    top: 28rem;
+    background: #273549;
+    border-radius: .5rem;
+}
+
+#actual__password {
+    position: absolute;
+    font-family: monospace;
+    font-weight: 100;
+    font-size: 2rem;
+    top: 26.2rem;
+    left: 7rem;
+    text-align: left;
+    color: #22be61;
+}
+
+#svg {
+    position: absolute;
+    top: 28.7rem;
+    left: 28rem;
+    cursor: pointer;
+}
+
+#svg:active {
+    transform: translate(1px, 1px);
+}
