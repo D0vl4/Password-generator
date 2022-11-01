@@ -44,7 +44,7 @@ p {
     font-style: normal;
     font-weight: 400;
     font-size: 1.25rem;
-    color: #D5D4D8;
+    letter-spacing: -.7px; 
 }
 
 #button {
@@ -77,7 +77,7 @@ p {
     height: 3rem;
     left: 3.23rem;
     top: 17rem;
-    background: red;
+    background: #bc4749;
     border-radius: .5rem;
     cursor: pointer;
     border: none;
@@ -94,9 +94,9 @@ hr {
     position: absolute;
     width: 27.5rem;
     left: 3.25rem;
-    top: 25rem;
-    border: .5px solid rgba(137, 137, 137, 0.195);
-    border-radius: 1rem;
+    top: 25.5rem;
+    border: .5px solid rgba(137, 137, 137, 0.382);
+    border-radius: 2rem;
 }
 
 .info {
@@ -104,7 +104,7 @@ hr {
     top: 22.5rem;
     font-weight: 400;
     font-size: 1rem;
-    color: #D5D4D8;
+    color: white;
 }
 
 #generated__password {
