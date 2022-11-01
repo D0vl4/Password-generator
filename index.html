@@ -6,16 +6,18 @@
         <title>Password generator</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@800;wght@400;900&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
         <script src="index.js" async defer></script>
     </head>
     <body>
         <div id="container">
-            <p>Generate a</p>
+            <p class="generate">Generate a</p>
             <p class="random__password"><br>random password</p>
             <p class="never">Never use an insecure password again.</p>
                  <button id="button" onclick="button_clicked()">Generate password</button>
-                 <button id="clear" onClick="window.location.reload()">Clear</button>
+                 <button id="clear" input type="reset" value="reset data" onclick="reset()">Clear</button>
             <hr>
             <p class="info">Your new password will be 15 characters long.</p>
         <div id="generated__password"></div>

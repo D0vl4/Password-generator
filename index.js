@@ -9,3 +9,8 @@ function button_clicked() {
     }
      actual__password.textContent = pass
 }
+
+function reset() {
+     // document.getElementById("actual__password").value = ''
+     actual__password.textContent = " "
+}
