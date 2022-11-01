@@ -11,6 +11,5 @@ function button_clicked() {
 }
 
 function reset() {
-     // document.getElementById("actual__password").value = ''
      actual__password.textContent = " "
 }
