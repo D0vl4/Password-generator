@@ -3,8 +3,8 @@
 }
 
 body {
-    max-width: 100vw;
-    max-height: 100vh;
+    max-width: 80vw;
+    max-height: 80vh;
     background-color: #c1edd3;
     box-sizing: border-box;
 }
